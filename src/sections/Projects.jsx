@@ -13,7 +13,7 @@ const projects = [
     {
         title: "BITSA Club Website",
         description: "Official website for the Bachelor of Information Technology Students Association. Empowering tech leaders through innovation and collaboration.",
-        tags: ["React", "Tailwind CSS", "Community"],
+        tags: ["React", "Tailwind CSS", "Node.js", "Mongo DB"],
         image: bitsaImg,
         demo: "https://bitsa-frontend-rosy.vercel.app/",
         github: "https://github.com/cheropbecky",
@@ -29,7 +29,7 @@ const projects = [
     {
         title: "Techflow",
         description: "A modern tech platform showcasing innovation and digital solutions. Features a clean interface and responsive design.",
-        tags: ["Web Development", "UI/UX"],
+        tags: ["Tailwindcss","Javascript", "HTML"],
         image: techflowImg,
         demo: "https://cheropbecky.github.io/Techflow/",
         github: "https://github.com/cheropbecky/Techflow",
