@@ -6,7 +6,7 @@ export const Card = ({ children, className, ...props }) => {
         <motion.div
             whileHover={{ y: -5 }}
             className={cn(
-                "glass-card rounded-2xl p-6 shadow-xl",
+                "bg-card border border-border rounded-2xl p-6 shadow-sm",
                 className
             )}
             {...props}

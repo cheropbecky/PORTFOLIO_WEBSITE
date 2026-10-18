@@ -1,0 +1,8 @@
+{
+  "name": "Cherop Becky Portfolio",
+  "description": "Portfolio website of Cherop Becky, a software engineering student and frontend developer specializing in responsive, modern web experiences.",
+  "requestFeedback": false,
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

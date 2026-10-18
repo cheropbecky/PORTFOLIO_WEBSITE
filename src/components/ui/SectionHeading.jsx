@@ -9,8 +9,8 @@ export const SectionHeading = ({ title, highlight, className = "" }) => {
             transition={{ duration: 0.6 }}
             className={`mb-12 md:mb-16 text-center ${className}`}
         >
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">
-                {title} <span className="text-gradient">{highlight}</span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-foreground">
+                {title} <span className="text-primary">{highlight}</span>
             </h2>
             <motion.div
                 initial={{ scaleX: 0 }}

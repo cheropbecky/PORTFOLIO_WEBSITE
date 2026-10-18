@@ -9,10 +9,10 @@ export const Button = ({
     ...props
 }) => {
     const variants = {
-        primary: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25 hover:shadow-primary/40 hover:scale-105",
-        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 hover:scale-105",
-        outline: "border border-input bg-background hover:bg-accent hover:text-accent-foreground hover:border-primary/50 hover:scale-105",
-        ghost: "hover:bg-accent hover:text-accent-foreground hover:scale-105",
+        primary: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm",
+        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border",
+        outline: "border border-border bg-transparent text-foreground hover:bg-secondary hover:text-foreground",
+        ghost: "text-foreground hover:bg-secondary hover:text-foreground",
     };
 
     return (
